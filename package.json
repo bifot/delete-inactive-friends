@@ -1,0 +1,26 @@
+{
+  "name": "delete-nonactivity-friends",
+  "version": "1.0.0",
+  "description": "Remove friends who have not been contacted for some time.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bifot/deleteinactivefriends.git"
+  },
+  "keywords": [
+    "vk"
+  ],
+  "author": "Mikhail Semin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bifot/deleteinactivefriends/issues"
+  },
+  "homepage": "https://github.com/bifot/deleteinactivefriends#readme",
+  "dependencies": {
+    "request": "2.79.0",
+    "request-promise": "4.1.1"
+  }
+}
